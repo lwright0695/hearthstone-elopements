@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hearthstone Elopements | West Virginia Elopements</title>
+  <meta
+    name="description"
+    content="Hearthstone Elopements offers intimate West Virginia elopement ceremonies in a cozy private setting. Perfect for couples seeking a simple, meaningful, and stress-free wedding experience."
+  />
+  <meta
+    name="keywords"
+    content="West Virginia elopements, elopement venue West Virginia, micro wedding West Virginia, intimate wedding West Virginia, small wedding venue West Virginia, Hearthstone Elopements"
+  />
+  <meta name="author" content="Hearthstone Elopements" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Hearthstone Elopements | West Virginia Elopements" />
+  <meta
+    property="og:description"
+    content="A cozy and intimate West Virginia elopement setting for couples who want a simple and meaningful wedding ceremony."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Hearthstone+Elopements" />
+
+  <style>
+    :root {
+      --bg: #f8f4ef;
+      --bg-soft: #fffaf5;
+      --card: #ffffff;
+      --text: #2f2925;
+      --muted: #6b625b;
+      --accent: #8b5e3c;
+      --accent-dark: #6e472b;
+      --line: #e6ddd4;
+      --shadow: 0 10px 30px rgba(47, 41, 37, 0.08);
+      --radius: 20px;
+      --max-width: 1140px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(92%, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.95rem 1.4rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      font-size: 0.98rem;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(139, 94, 60, 0.08);
+    }
+
+    .section {
+      padding: 4.5rem 0;
+    }
+
+    .section-title {
+      font-size: clamp(1.9rem, 3vw, 2.7rem);
+      line-height: 1.15;
+      margin: 0 0 0.8rem;
+    }
+
+    .section-subtitle {
+      max-width: 700px;
+      color: var(--muted);
+      margin: 0 0 2rem;
+      font-size: 1.05rem;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      font-weight: 700;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(248, 244, 239, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(230, 221, 212, 0.8);
+    }
+
+    .nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .brand span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 5rem 0 4rem;
+      background:
+        linear-gradient(rgba(248, 244, 239, 0.42), rgba(248, 244, 239, 0.82)),
+        radial-gradient(circle at top right, #f3e6d8 0%, transparent 35%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.7rem, 6vw, 4.9rem);
+      line-height: 0.97;
+      margin: 0 0 1rem;
+    }
+
+    .hero p {
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      margin: 0 0 1.5rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      margin-top: 1.25rem;
+    }
+
+    .hero-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.4rem;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-photo {
+      aspect-ratio: 4 / 5;
+      border-radius: calc(var(--radius) - 6px);
+      background:
+        linear-gradient(rgba(47, 41, 37, 0.1), rgba(47, 41, 37, 0.1)),
+        url("https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80")
+        center/cover no-repeat;
+      min-height: 420px;
+    }
+
+    .hero-note {
+      margin-top: 1rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+
+    .pill {
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 0.55rem 0.9rem;
+      font-size: 0.9rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.4rem;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.7rem;
+      font-size: 1.25rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.7rem;
+      align-items: start;
+    }
+
+    .feature-list,
+    .package-list,
+    .location-list {
+      padding-left: 1.2rem;
+      margin: 1rem 0 0;
+      color: var(--muted);
+    }
+
+    .feature-list li,
+    .package-list li,
+    .location-list li {
+      margin-bottom: 0.55rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    .gallery-item {
+      border-radius: 18px;
+      overflow: hidden;
+      min-height: 220px;
+      background: #ddd;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+    }
+
+    .gallery-item.tall {
+      grid-row: span 2;
+      min-height: 460px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .seo-block {
+      background: var(--bg-soft);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .form-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.8rem;
+      align-items: start;
+    }
+
+    form {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border-radius: 14px;
+      border: 1px solid #d9cec3;
+      background: #fff;
+      font: inherit;
+      color: var(--text);
+    }
+
+    textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: 2px solid rgba(139, 94, 60, 0.15);
+      border-color: var(--accent);
+    }
+
+    .fine-print {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 0.9rem;
+    }
+
+    .cta-panel {
+      background: linear-gradient(135deg, #fff 0%, #f8eee4 100%);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.6rem;
+      box-shadow: var(--shadow);
+    }
+
+    footer {
+      padding: 2rem 0 3rem;
+      border-top: 1px solid var(--line);
+      background: #f5efe8;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .two-col,
+      .form-wrap,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery-item.tall {
+        grid-row: span 1;
+        min-height: 280px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0.8rem 0;
+      }
+
+      .nav-links {
+        width: 100%;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 3.8rem;
+      }
+
+      .section {
+        padding: 3.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#top" class="brand">Hearthstone <span>Elopements</span></a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#west-virginia-elopements">WV Elopements</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-primary">Check Availability</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Intimate West Virginia Elopement Ceremonies</div>
+          <h1>Hearthstone Elopements</h1>
+          <p>
+            A cozy and private setting for couples who want a simple, meaningful wedding ceremony
+            without the stress of a large traditional event.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Check Availability</a>
+            <a href="#packages" class="btn btn-secondary">View Ceremony Options</a>
+          </div>
+
+          <div class="pill-row">
+            <div class="pill">Indoor Ceremonies</div>
+            <div class="pill">Small Guest Counts</div>
+            <div class="pill">Eastern Panhandle, WV</div>
+            <div class="pill">Simple & Meaningful</div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-photo" aria-label="Romantic elopement setting placeholder image"></div>
+          <p class="hero-note">
+            Replace this photo with one of the home, ceremony setup, or a styled couple portrait.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="eyebrow">About Hearthstone</div>
+        <h2 class="section-title">A simple and welcoming place to say “I do”</h2>
+        <p class="section-subtitle">
+          Hearthstone Elopements offers an intimate alternative to a large wedding. Designed for
+          couples who value connection over spectacle, our space is ideal for elopements, vow renewals,
+          and small ceremonies with just a few loved ones.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Private & Cozy</h3>
+            <p>
+              A warm indoor setting suited for couples who want a peaceful ceremony in a more personal,
+              low-pressure environment.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Perfect for Small Gatherings</h3>
+            <p>
+              Best for intimate celebrations with the couple alone or a very limited guest list of close
+              family and friends.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Conveniently Located</h3>
+            <p>
+              Located in West Virginia’s Eastern Panhandle, within easy reach of Northern Virginia,
+              Maryland, and the Washington, DC area.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section seo-block" id="packages">
+      <div class="container">
+        <div class="eyebrow">Ceremony Options</div>
+        <h2 class="section-title">Simple ceremony choices for different needs</h2>
+        <p class="section-subtitle">
+          Keep this section high-level for now. Later, you can add exact pricing, inclusions, and add-ons.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Couple’s Elopement</h3>
+            <p>
+              A private ceremony for just the two of you, focused on a meaningful moment and a stress-free
+              experience.
+            </p>
+            <ul class="package-list">
+              <li>Private indoor ceremony setting</li>
+              <li>Ideal for the couple only</li>
+              <li>Simple and intimate experience</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Small Ceremony</h3>
+            <p>
+              A beautiful option for couples who want to include a few loved ones while keeping the day
+              personal and low-key.
+            </p>
+            <ul class="package-list">
+              <li>Great for a small guest count</li>
+              <li>Ideal for close family and friends</li>
+              <li>Comfortable indoor setting</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Custom Ceremony</h3>
+            <p>
+              For couples who want something a little more tailored, with flexibility based on timing,
+              guest count, or special details.
+            </p>
+            <ul class="package-list">
+              <li>Vow renewals welcome</li>
+              <li>Flexible setup options</li>
+              <li>Add-ons can be listed later</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="eyebrow">Photo Gallery</div>
+        <h2 class="section-title">Show the experience, not just the house</h2>
+        <p class="section-subtitle">
+          Replace these with real photos of the ceremony area, indoor setup, details, and any styled
+          shots you create. Even phone photos are enough to start if the lighting is good.
+        </p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item tall">
+            <img
+              src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80"
+              alt="Couple during intimate wedding ceremony"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80"
+              alt="Wedding detail arrangement"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=80"
+              alt="Romantic indoor setting"
+            />
+          </div>
+          <div class="gallery-item tall">
+            <img
+              src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80"
+              alt="Bride and groom portrait"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80"
+              alt="Wedding florals and decor"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=900&q=80"
+              alt="Small intimate ceremony setup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section seo-block" id="west-virginia-elopements">
+      <div class="container two-col">
+        <div>
+          <div class="eyebrow">West Virginia Elopements</div>
+          <h2 class="section-title">A nearby, intimate alternative to a courthouse or large venue</h2>
+          <p class="section-subtitle">
+            Hearthstone Elopements is designed for couples who want a meaningful wedding day without the
+            cost, pressure, or complexity of a traditional event. Our space is especially well-suited for
+            small ceremonies, quick planning timelines, and couples seeking a personal setting in West Virginia.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Why couples choose a West Virginia elopement</h3>
+          <ul class="feature-list">
+            <li>Less stress than a traditional wedding</li>
+            <li>Lower cost and simpler planning</li>
+            <li>Ideal for intimate guest counts</li>
+            <li>Perfect for meaningful, personal ceremonies</li>
+            <li>Easy drive from Northern Virginia, Maryland, and DC</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="location">
+      <div class="container two-col">
+        <div>
+          <div class="eyebrow">Location</div>
+          <h2 class="section-title">Conveniently located in West Virginia’s Eastern Panhandle</h2>
+          <p class="section-subtitle">
+            Hearthstone Elopements serves couples looking for a simple and intimate wedding setting within
+            easy reach of surrounding areas. This makes it a strong choice for local couples and for those
+            wanting a nearby destination elopement without traveling far.
+          </p>
+          <ul class="location-list">
+            <li>West Virginia</li>
+            <li>Near Northern Virginia</li>
+            <li>Accessible from Maryland</li>
+            <li>Reasonable drive from Washington, DC</li>
+          </ul>
+        </div>
+
+        <div class="cta-panel">
+          <h3>Privacy first</h3>
+          <p class="muted">
+            For security and privacy, the exact address can be shared after inquiry, consultation, or booking.
+            This is common for small private venues and helps protect the home environment.
+          </p>
+
+          <h3 style="margin-top: 1.5rem;">Best fit for</h3>
+          <p class="muted">
+            Couples seeking an indoor ceremony, a small guest list, and a warm, personal atmosphere rather than
+            a large event venue.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section seo-block" id="contact">
+      <div class="container">
+        <div class="eyebrow">Contact</div>
+        <h2 class="section-title">Check availability</h2>
+        <p class="section-subtitle">
+          This form is ready for layout preview. To make it live, connect it to a form service before publishing.
+        </p>
+
+        <div class="form-wrap">
+          <form id="availability-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="partner-name">Partner’s Name</label>
+                <input id="partner-name" name="partner_name" type="text" placeholder="Partner’s name" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" />
+              </div>
+
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input id="date" name="preferred_date" type="date" />
+              </div>
+
+              <div class="form-group">
+                <label for="guests">Estimated Guest Count</label>
+                <select id="guests" name="guest_count">
+                  <option value="">Select one</option>
+                  <option>Just the couple</option>
+                  <option>1–4 guests</option>
+                  <option>5–10 guests</option>
+                  <option>More than 10</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label for="message">Tell us a little about your ceremony</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us your ideal date, guest count, and anything special you'd like us to know."
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            <p class="fine-print">
+              Placeholder form only. Connect to Formspree, Netlify Forms, or another service before going live.
+            </p>
+            <p class="fine-print" id="form-message" aria-live="polite"></p>
+          </form>
+
+          <div class="cta-panel">
+            <h3>What to expect</h3>
+            <p class="muted">
+              After you inquire, you can follow up with package details, next steps, and any scheduling information.
+              This section can later be expanded with phone, email, office hours, or a consultation process.
+            </p>
+
+            <h3 style="margin-top: 1.5rem;">Suggested next additions</h3>
+            <ul class="feature-list">
+              <li>Real interior and ceremony photos</li>
+              <li>Package pricing</li>
+              <li>Frequently asked questions</li>
+              <li>Testimonials from couples</li>
+              <li>Marriage license guide for West Virginia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="brand">Hearthstone <span>Elopements</span></div>
+        <p class="muted" style="margin-top: 0.7rem; max-width: 560px;">
+          Intimate West Virginia elopement ceremonies for couples who want a simple, meaningful, and
+          beautifully personal wedding experience.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#west-virginia-elopements">WV Elopements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById("availability-form");
+    const formMessage = document.getElementById("form-message");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      formMessage.textContent =
+        "Preview mode only: this form is not connected yet. Once you hook it up to a form service, inquiries will submit normally.";
+    });
+  </script>
+</body>
+</html>
