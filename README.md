@@ -5,7 +5,7 @@ This repository contains the website for **Hearthstone Elopements**, a small elo
 The site is a simple static website built with HTML, CSS, and JavaScript and hosted using **GitHub Pages**.
 
 ## Live Website
-https://yourusername.github.io/hearthstone-elopements/
+https://lwright0695.github.io/hearthstone-elopements/
 
 ## Project Goals
 - Provide a simple landing page for couples seeking elopement ceremonies
