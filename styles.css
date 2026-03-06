@@ -219,18 +219,25 @@ textarea {
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
+.nav-links a {
+  color: var(--muted);
+}
+
+.nav-links a.btn-primary {
+  color: #ffffff;
+}
+
 .btn-primary {
   background: linear-gradient(135deg, #8b5e3c, #a97750);
-  color: #ffffff;
-  box-shadow: var(--shadow);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .btn-primary:hover,
-.btn-primary:focus-visible {
-  background: var(--accent-dark);
+.btn-primary:focus {
+  background: #6e472b;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: var(--shadow-strong);
 }
 
 .btn-secondary {
